@@ -70,3 +70,4 @@ El resultado debe ser la visualización del sitio web accediendo desde la URL de
 4. Confirma que el ALB URL impreso en el summary responde correctamente
 
 ¡Buena suerte!
+# trigger
