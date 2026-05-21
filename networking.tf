@@ -1,5 +1,5 @@
 resource "aws_vpc" "AC2-vpc" {
-  cidr_block           = "10.10.0.0/16"
+  cidr_block           = "10.0.0.0/16"
   enable_dns_hostnames = true
   enable_dns_support   = true
 
@@ -50,7 +50,7 @@ resource "aws_subnet" "AC2-subnet-private-a" {
 
 resource "aws_subnet" "AC2-subnet-private-b" {
   vpc_id            = aws_vpc.AC2-vpc.id
-  cidr_block        = "10.0.3.0/24"
+  cidr_block        = "10.0.4.0/24"
   availability_zone = "us-east-1b"
 
   tags = {
